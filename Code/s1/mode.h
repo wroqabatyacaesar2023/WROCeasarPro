@@ -1,0 +1,26 @@
+
+enum MOTION_MODE
+{
+  STANDBY,
+  FORWARD,
+  FORWARD_ENCODER,
+  PRE_FINAL,
+  PARKING,
+  TURNE,
+  SHIFT_RIGHT,
+  SHIFT_LEFT,
+  TURNENCODR1,
+  TURNENCODER2,
+  STOP,
+} motion_mode = STANDBY;
+
+
+enum SHIFT_STAGES
+{
+  TURN1,
+  TURN2,
+  STRIGHT,
+  FINISH,
+  REVERCE,
+ 
+} shift_Stages = TURN1;
